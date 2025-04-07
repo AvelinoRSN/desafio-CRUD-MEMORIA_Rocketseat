@@ -57,10 +57,10 @@ desafio-CRUD-MEMORIA/
 ### Criar usuário
 
 ```bash
-curl -X POST http://localhost:8200/api/users   -H "Content-Type: application/json"   -d '{
+curl -X POST http://localhost:8200/api/users -H "Content-Type: application/json" -d '{
     "first_name": "João",
     "last_name": "Silva",
-    "biography": "Desenvolvedor Go apaixonado por código limpo."
+    "biography": "Desenvolvedor Go aprendendo cada vez mais!!!."
 }'
 ```
 
